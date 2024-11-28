@@ -9,12 +9,21 @@ body {
     height: 100vh;
     width: 100vw;
 
+    .headline {
+        color: $text-headline;
+        text-transform: uppercase;
+    }
+
+    #subtitle {
+        color: $text-secondary;
+        font-style: italic;
+    }
+
     main {
-        border: 1px solid red;
         margin: 5.5rem 5rem 4rem;
     }
 
-    footer {
-        border: 1px solid purple;
-    }
+    // footer {
+    //     border: 1px solid purple;
+    // }
 }
