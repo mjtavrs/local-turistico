@@ -4,13 +4,6 @@
   padding: 0;
 }
 
-body {
-  background-color: #0C51A7;
-  overflow-x: hidden;
-  height: 100dvh;
-  width: 100dvh;
-}
-
 h1, h2, h3, .headline {
   font-weight: 800;
 }
@@ -33,4 +26,21 @@ h3 {
 
 .subtitle {
   font-style: italic;
+}
+
+body {
+  align-items: center;
+  background-color: #F5F4F0;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  height: 100vh;
+  width: 100vw;
+}
+body main {
+  border: 1px solid red;
+  margin: 5.5rem 5rem 4rem;
+}
+body footer {
+  border: 1px solid purple;
 }/*# sourceMappingURL=styles.css.map */
