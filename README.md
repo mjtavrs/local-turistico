@@ -1,0 +1,1 @@
+Projeto criado como parte da trilha Full Stack Developer da Rocketseat
