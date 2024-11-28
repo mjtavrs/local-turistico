@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   color: #1B1B1B;
+  font-family: "Open Sans", sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -31,8 +32,9 @@ body {
   display: flex;
   flex-direction: column;
   gap: 4rem;
-  height: 100vh;
-  width: 100vw;
+  overflow-x: hidden;
+  height: 100dvh;
+  width: 100dvw;
 }
 body .headline {
   color: #E1624F;
@@ -43,5 +45,27 @@ body #subtitle {
   font-style: italic;
 }
 body main {
-  margin: 5.5rem 5rem 4rem;
+  border: 1px solid green;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  margin: 5rem 5rem 4rem;
+}
+body main section {
+  width: 100%;
+}
+body main #titlePage {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+body main #destinationDescription {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+body main #destinationDescription img {
+  border-radius: 1.75rem;
+  width: inherit;
 }/*# sourceMappingURL=styles.css.map */

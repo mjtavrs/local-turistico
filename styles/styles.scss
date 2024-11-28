@@ -6,8 +6,9 @@ body {
     display: flex;
     flex-direction: column;
     gap: 4rem;
-    height: 100vh;
-    width: 100vw;
+    overflow-x: hidden;
+    height: 100dvh;
+    width: 100dvw;
 
     .headline {
         color: $text-headline;
@@ -20,7 +21,33 @@ body {
     }
 
     main {
-        margin: 5.5rem 5rem 4rem;
+        border: 1px solid green;
+        display: flex;
+        flex-direction: column;
+        gap: 2.5rem;
+        margin: 5rem 5rem 4rem;
+
+        section {
+            width: 100%;
+        }
+
+        #titlePage {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        #destinationDescription {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+
+            img {
+                border-radius: 1.75rem;
+                width: inherit;
+            }
+        }
     }
 
     // footer {
