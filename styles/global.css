@@ -42,5 +42,6 @@ h1, h2, h3, .headline {
 }
 
 img {
+    border-radius: 1.75rem;
     max-width: 100%;
 }
