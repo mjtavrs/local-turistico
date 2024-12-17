@@ -1,5 +1,4 @@
 .container {
-    border: 1px solid red;
     margin-block: 5.5rem;
     margin-inline: auto;
     max-width: 70rem;
@@ -13,6 +12,10 @@
     flex-direction: column;
 }
 
+.items-center {
+    align-items: center;
+}
+
 .gap-2\.5 {
     gap: 2.5rem;
 }
@@ -23,6 +26,7 @@
 
 .subtitle {
     font-style: italic;
+    margin-top: 1.5rem;
     text-align: center;
 }
 
@@ -39,6 +43,7 @@
 
 .heading-2 {
     font-size: var(--fs-xl);
+    margin-bottom: 0.5rem;
 }
 
 .heading-3 {

@@ -10,12 +10,56 @@ body {
     & .card-travel {
         & div {
             & p + p {
+                font-weight: var(--fw-bold);
                 margin-top: 1rem;
             }
 
+            & ul {               
+                & li {
+                    font-weight: var(--fw-bold);
+                    margin-left: 1.8rem;
+                }
+
+                & li::marker {
+                    color: var(--text-secondary);
+                }
+            }
+        }
+    }
+
+    & .card-travel:nth-child(1) {
+        & div {
             & ul {
                 & li {
-                    margin-left: 2rem;
+                    color: var(--accent-blue);
+                }
+            }
+        }
+    }
+
+    & .card-travel:nth-child(2) {
+        & div {
+            & ul {
+                & li {
+                    color: var(--accent-blue);
+                }
+            }
+        }
+    }
+
+    & .card-travel:nth-child(3) {
+        & div {
+            & ul {
+                & li:nth-child(1) {
+                    color: var(--accent-purple);
+                }
+
+                & li:nth-child(2) {
+                    color: var(--accent-pink);
+                }
+
+                & li:nth-child(3) {
+                    color: var(--accent-orange);
                 }
             }
         }
