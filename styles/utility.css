@@ -9,8 +9,16 @@
     display: flex;
 }
 
-.list {
-    
+.flex-columns {
+    flex-direction: column;
+}
+
+.gap-2\.5 {
+    gap: 2.5rem;
+}
+
+.gap-3 {
+    gap: 3rem;
 }
 
 .subtitle {
@@ -38,8 +46,18 @@
     padding-inline-start: 0.5rem;
 }
 
+.card-travel {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
 .destination-cover {
     height: 21.875rem;
     object-fit: cover;
     width: 100%;
+}
+
+.divisor {
+    border-top: 1px solid var(--border-primary);
 }

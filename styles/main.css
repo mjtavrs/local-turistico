@@ -1,0 +1,29 @@
+body {
+    & section:nth-child(3) {
+        border-top: 1px solid var(--border-primary);
+        
+        & div:has(.heading-2) {
+            margin-block: 4rem;
+        }
+    }
+
+    & .card-travel {
+        & div {
+            & p + p {
+                margin-top: 1rem;
+            }
+
+            & ul {
+                & li {
+                    margin-left: 2rem;
+                }
+            }
+        }
+    }
+
+    & .divisor + div {
+        & p {
+            text-align: center;
+        }
+    }
+}
