@@ -31,10 +31,14 @@
 }
 
 html {
-    color: var(--text-primary);
+    color: var(--text-secondary);
     font-family: var(--ff-sans);
     font-size: var(--fs-base);
     font-weight: var(--fw-regular);
+}
+
+h1, h2, h3, .headline {
+    font-weight: var(--fw-bold);
 }
 
 img {

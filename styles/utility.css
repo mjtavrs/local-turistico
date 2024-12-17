@@ -1,0 +1,45 @@
+.container {
+    border: 1px solid red;
+    margin-block: 5.5rem;
+    margin-inline: auto;
+    max-width: 70rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.list {
+    
+}
+
+.subtitle {
+    font-style: italic;
+    text-align: center;
+}
+
+.headline {
+    color: var(--text-headline);
+    
+    text-transform: uppercase;
+}
+
+.heading-1 {
+    font-size: var(--fs-2xl);
+    
+}
+
+.heading-2 {
+    font-size: var(--fs-xl);
+}
+
+.heading-3 {
+    font-size: var(--fs-lg);
+    padding-inline-start: 0.5rem;
+}
+
+.destination-cover {
+    height: 21.875rem;
+    object-fit: cover;
+    width: 100%;
+}
